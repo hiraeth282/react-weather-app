@@ -1,0 +1,13 @@
+:root {
+    --main-font: ariel, sans-serif;
+}
+
+.App {
+    font-family: var(--main-font);
+    margin: auto;
+    max-width: 650px;
+}
+
+.App footer {
+    font-size: 12px;
+}

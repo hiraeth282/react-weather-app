@@ -1,6 +1,10 @@
 import React from "react";
+import axios from 'axios';
+import './Weather.css'
 
 export default function Weather() {
+  const apiKey = "ef3b002ff573fa014c1eft26f3o5f207";
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?query={query}&key=${apiKey}&units=metric`
   return (
     <div className="Weather">
       <form>
@@ -10,10 +14,11 @@ export default function Weather() {
               type="search"
               placeholder="Enter a city..."
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div className="col-sm-3">
-            <input type="submit" value="Search" className="btn btn-dark" />
+            <input type="submit" value="Search" className="btn btn-dark w-100" />
           </div>
         </div>
       </form>
@@ -28,8 +33,9 @@ export default function Weather() {
       </ul>
       <div className="row">
         <div className="col-sm-6">
-          <img src="https://ssl.gstatic.com/onebox/weather/64/rain_light.png" alt="rain icon" width="80" height="80"></img>
-          10°C
+          <img src="https://ssl.gstatic.com/onebox/weather/64/rain_light.png" alt="rain icon" className="mb-4"></img>
+          <span className="current-temperature">10</span>
+          <span className="unit">°C</span>
         </div>
         <div className="col-sm-6">
           <ul>

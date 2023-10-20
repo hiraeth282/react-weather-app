@@ -12,19 +12,19 @@ export default function App() {
           </div>
         </div>
         <footer className="d-flex justify-content-center">
-          This project was coded by{" "}
+          This project was coded by{" "} 
           <a
             href="https://verdant-mermaid-8e9627.netlify.app/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
-            Evelyn Ewald
+           Evelyn Ewald
           </a>{" "}
           and is{" "}
           <a
             href="https://github.com/hiraeth282/react-weather-app"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             open-sourced on GitHub
           </a>
