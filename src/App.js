@@ -8,7 +8,7 @@ export default function App() {
       <div className="container">
         <div className="card mt-5">
           <div className="card-body">
-            <Weather />
+            <Weather defaultCity = "Tokyo" />
           </div>
         </div>
         <footer className="d-flex justify-content-center">
