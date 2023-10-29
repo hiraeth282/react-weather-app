@@ -14,6 +14,7 @@ export default function WeatherInfo(props) {
             {props.data.description}
           </li>
         </ul>
+        <br />
         <div className="row">
           <div className="col-sm-8">
             <img src={props.data.iconUrl} alt={props.data.description} className="mb-4"></img>
