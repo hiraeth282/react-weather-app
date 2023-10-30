@@ -1,6 +1,11 @@
 :root {
     --main-font: ariel, sans-serif;
-    --accent-color: #B598EF;
+    --main-color: #1B1B1B;
+    --secondary-color: white;
+}
+
+body {
+    background-image: url(./images/sky.jpg);
 }
 
 .App {
@@ -9,11 +14,23 @@
     max-width: 650px;
 }
 
+.App .card {
+    background: rgb(255, 255, 255, 0.2);
+    box-shadow: rgba(100, 106, 111, 0.2) 0px 8px 24px;
+    border-radius: 8px;
+}
+
 .App footer {
     font-size: 12px;
+    color: white;
+
 }
 
 .App a {
     text-decoration: none;
-    color: var(--accent-color);
+    color: var(--secondary-color);
+}
+
+a:hover {
+    color: #1d064a;
 }

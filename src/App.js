@@ -11,22 +11,27 @@ export default function App() {
             <Weather defaultCity="Hell" />
           </div>
         </div>
-        <footer className="d-flex justify-content-center">
-          This project was coded by{" "}
+        <footer className="d-flex justify-content-center mt-3">
           <a
             href="https://verdant-mermaid-8e9627.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Evelyn Ewald
-          </a>{" "}
-          and is{" "}
+            - Coded by Evelyn Ewald -
+          </a>
           <a
             href="https://github.com/hiraeth282/react-weather-app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            open-sourced on GitHub
+            - Open-sourced on GitHub -
+          </a>
+          <a
+            href="https://stunning-horse-dfe047.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            - Hosted on Netlify -
           </a>
         </footer>
       </div>
